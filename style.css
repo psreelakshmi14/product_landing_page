@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+* {
+    margin: 15px;
+    padding: 0;
+}
+.container
+{
+    min-width: 80vw;
+}
+
+.navbar{
+    display:inline;
+    height: 60px;
+}
+li{
+    display:inline;
+    font-size:150%;
+  
+   
+   
+}
+.navbar li{
+    
+    margin:0 5px;
+    
+}
+li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 15px 25px 5px;
+    font-size:25px;
+}
+
+li a:hover
+{
+    background-color:rgb(105, 30, 158);
+}
+
+ .bgmain{
+     background-image:url(mainbg.jpg)
+ }
+.topright
+{
+    width:50%;
+    float:right;
+   max-width:50%;
+   max-height:300%;
+
+}
+.bgh
+{
+    color:black;
+    font-weight:bolder;
+    font-size:70px;
+}
+.container1
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+p{
+    font-size:15px;
+    align-items: center;
+    font-size:20px;
+    position:absolute;  
+    width:220px;
+    
+
+}
+section{
+    height:5px;
+}
+.contactcolor{
+    color:white;
+}
+.bghead
+{
+    background-image: url(bgheader.jpg);
+}
+/*
+<html>
+    <head>
+    <title>PRODUCTS</title>
+    <style>
+        
+    </style>
+     <link rel="stylesheet" href="product-style.css">
+    </head>
+<body>
+    <h1  class="alignment font-bold  fontfamily">Tunetown<sub>Products</sub></h1>
+    <div class="container">
+        <div class="card">
+          <div class="flip-front">      
+        <img src="hp2.png" alt="hp1" class="alignment row">
+        <!img src="hp3.png" alt="hp1" class="alignment row">
+        <!img src="hp4.png" alt="hp1" class="alignment row">
+        </div>
+    </div>
+    <div class="flip-back">
+                <h2>Paris</h2>
+                <p>What an amazing city</p>
+    </div>
+    </div>
+</div>
+</body>
+</html>*/
